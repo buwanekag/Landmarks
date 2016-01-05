@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Landmarks" representedClassName="Landmarks" syncable="YES">
+        <attribute name="landmarkCity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmarkDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmarkImageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmarkLatitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmarkLongitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmarkName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmarkPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmarkState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmarkStreet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmarkWeb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmarkZip" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Landmarks" positionX="-63" positionY="-18" width="128" height="210"/>
+    </elements>
+</model>
