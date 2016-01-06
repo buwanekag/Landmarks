@@ -27,22 +27,6 @@
 
 
 #pragma Annotation Method
-//new test
-
-
-//-(void)annotateMapLocations{
-//    NSMutableArray *pinsToRemove = [[NSMutableArray alloc]init];
-//    for (id <MKAnnotation> annot in [_landmarkMapView annotations]) {
-//        if ([annot isKindOfClass:[MKPointAnnotation class]]) {
-//            [pinsToRemove addObject:annot];
-//
-//        }
-//
-//
-//    }
-//    [_landmarkMapView removeAnnotations:pinsToRemove];
-//
-//
 
 -(void)annotateMapLocations{
     NSMutableArray *pinsToRemove = [[NSMutableArray alloc]init];
@@ -334,9 +318,6 @@
 
 
 
-//_selectedLandmarkName = view.annotation.title;
-//[self performSegueWithIdentifier:@"seguePinToDetail" sender:mapView];
-//}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     DisplayViewController *destController = [segue destinationViewController];
@@ -347,17 +328,6 @@
     }
 }
 
-//-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-//    DisplayViewController *listcontroller = [segue destinationViewController];
-//    if ([[segue identifier] isEqualToString:@"segueMap"]) {
-////        NSIndexPath *indexPath = [_landmarkNameDisplay indexPathForSelectedRow];
-////        Landmarks *currentLandmark = _appDelegate.landmarkArray[indexPath.row];
-//        NSLog(@"Starting");
-//        listcontroller.currentLandmark = _currentLandmark;
-//        NSLog(@"Done");
-//    }
-//}
-//
 
 #pragma Life Cycle Method
 

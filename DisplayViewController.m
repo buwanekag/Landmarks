@@ -15,7 +15,6 @@
 @property (nonatomic,weak) IBOutlet UILabel *landmarkNameLabel;
 @property (nonatomic,weak) IBOutlet UILabel *landmarkDescription;
 @property (nonatomic,weak) IBOutlet UILabel *landmarkAddress;
-//@property (nonatomic,weak) IBOutlet UILabel *landmarkPhone;
 @property (nonatomic,weak) IBOutlet UILabel *landmarkWeb;
 @property (nonatomic,weak) IBOutlet UIImageView *landmarkView;
 @property (nonatomic,weak) IBOutlet MKMapView *displayMap;
@@ -45,13 +44,7 @@
     [super viewDidLoad];
     _landmarkNameLabel.text = _currentLandmark.landmarkName;
     _landmarkDescription.text = _currentLandmark.landmarkDescription;
-//    _landmarkAddress.lineBreakMode = NSLineBreakByWordWrapping;
-//    _landmarkAddress.numberOfLines =0;
-//    _landmarkAddress.text = _currentLandmark.landmarkStreet;
-//    _landmarkAddress.text = _currentLandmark.landmarkState;
-//    _landmarkAddress.text = _currentLandmark.landmarkZip;
-//    [_landmarkAddress sizeToFit];
-  //  _landmarkAddress.text = [NSString stringWithFormat:_currentLandmark.landmarkStreet,_currentLandmark.landmarkState,_currentLandmark.landmarkZip];
+
     
     
     _landmarkAddress.text = [NSString stringWithFormat:@"%@,%@ %@",_currentLandmark.landmarkStreet,_currentLandmark.landmarkState,_currentLandmark.landmarkZip];

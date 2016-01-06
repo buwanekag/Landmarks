@@ -40,11 +40,7 @@
     CGFloat heightScale = basicCell.imageView.image.size.height;
     basicCell.imageView.transform = CGAffineTransformMakeScale(widthScale, heightScale);
     
-    
-    //  basicCell.imageView.image = [UIImage imageWithCGImage:currentlandmark scale:widthScale,heightScale orientation:nil];
-    
-    
-   // [basicCell sizeToFit];
+   
     return basicCell;
 }
 
