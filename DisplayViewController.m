@@ -29,12 +29,12 @@
 
 #pragma Interactive Methods
 
-////- (IBAction)facebookButtonPressed:(id)sender {
-//  //  NSLog(@"facebook");
+//- (IBAction)facebookButtonPressed:(id)sender {
+//    NSLog(@"facebook");
 //    if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
-//        SLComposeViewController *facebookVC = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
-//        [facebookVC setInitialText:@"hello"];
-//        [self.navigationController presentViewController:facebookVC animated:true completion:nil];
+//        SLComposeViewController *_facebook = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+//        [_facebook setInitialText:@"hello"];
+//        [self.navigationController presentViewController:_facebook animated:true completion:nil];
 //    }
 //}
 
@@ -57,12 +57,9 @@
     _landmarkAddress.text = [NSString stringWithFormat:@"%@,%@ %@",_currentLandmark.landmarkStreet,_currentLandmark.landmarkState,_currentLandmark.landmarkZip];
     _landmarkPhone.text = _currentLandmark.landmarkPhone;
     _landmarkWeb.text = _currentLandmark.landmarkWeb;
-    
-      //_landmarkImage.image = [UIImage imageNamed:_currentLandmarks.landmarkImageName];
-   // _landmarkView.image = _currentLandmark.landmarkImageName;
     _landmarkView.image = [UIImage imageNamed:_currentLandmark.landmarkImageName];
-   // _landmarkView.image = [UIImage ]
-
+    // _landmarkView.image = [UIImage ]
+    
 }
 
 - (void)didReceiveMemoryWarning {

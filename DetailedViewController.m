@@ -73,6 +73,7 @@
     [super viewDidLoad];
     _appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     _appDelegate.landmarkArray = [_appDelegate fetchLandmarks];
+    
    
     
 
